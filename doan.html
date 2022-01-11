@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./flaticon/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+      <!-- Brand/logo -->
+      <a class="navbar-brand " href="doan.html">
+        <img src="./picture/logo/logo.png " class="resize-logo" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <i class="fas fa-bars ml-1"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="doan.html">trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="course.html">khóa học</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" >câu lạc bộ</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a href="./clb.html" class="dropdown-item">TP Hồ Chí Minh</a>
+              <a href="./clbhanoi.html" class="dropdown-item">Hà Nội</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="sanpham.html">dinh dưỡng</a>
+          </li>
+          <li>
+            <a class="btn btn-outline-warning" data-toggle="modal" data-target="#myModal" href="#khoahoc">đăng kí tập thử</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <a href="./signin.html"><span class="glyphicon glyphicon-user" style = "color: #ffffff">sign in</a>
+        </ul>
+    </nav>
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title"></h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="container">
+                <h2>Đăng kí ngay để được nhận 7 ngày tập miễn phí</h2>
+                <form action="/action_page.php">
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">đăng kí ngay</button>
+                </form>
+              </div>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      <div id="slide" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#slide" data-slide-to="0" class="active"></li>
+          <li data-target="#slide" data-slide-to="1"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./picture/klpicture/hinh1.jpg" class = "d-block w-100" width="1100" height="700">
+            <div class="carousel-caption text-center">
+              <strong>welcome to D&L Fitness</strong>
+              <br>
+              <h2>cùng các huấn luyện viên chuyên nghiệp</h2>
+              <a class="btn btn-outline-warning" href="#khoahoc">đăng kí ngay</a>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./picture/klpicture/hinh2.jpg" class = "d-block w-100" width="1100" height="700">  
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#slide" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slide" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>     
+      <section class="choseus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>tại sao chọn chúng tôi?</span>
+                        <h2>HÃY ĐỂ CHÚNG TÔI GIÚP BẠN</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="flaticon-034-stationary-bike"></span>
+                        <h4>Thiết bị máy tập hiện đại</h4>
+                        <p>Với những máy tập hiện đại nhập khẩu từ nước ngoài, tạ cao su không rỉ
+                          phục vụ tốt nhất cho những gymer
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="flaticon-033-juice"></span>
+                        <h4>Thực phẩm dinh dưỡng</h4>
+                        <p>D&L Fitness còn cung cấp thực phẩm bổ sung protein, đạm whey
+                          cần thiết cho mỗi buổi tập, sản phẩm đảm bảo chất lượng, uy tín được nhập
+                          từ những hãng quốc tế
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="flaticon-002-dumbell"></span>
+                        <h4>Huấn luyện viên chuyên nghiệp</h4>
+                        <p>Ở D&L Fitness bạn sẽ được huấn luyện một cách bài bản từ những 
+                          người giàu kinh nghiệm, đầy đủ bằng cấp chứng nhận quốc tế
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="flaticon-014-heart-beat"></span>
+                        <h4>Hệ thống phòng thư giãn tuyệt vời</h4>
+                        <p>Trải qua một buổi tập nặng cơ thể đã mệt nhoài, đã đến lúc tận
+                          hưởng những phút thư giãn trong phòng xông hơi đẳng cấp của chúng tôi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class = "khoahocsection">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="section-title">
+                      <span>Hãy đến với các khóa học của chúng tôi</span>
+                      <h2>bí quyết để có một cơ thể khỏe mạnh</h2>
+                      <hr class = "cool divider short-line center">
+                  </div>
+              </div>
+          </div>
+          <div class = "row no-padding">
+            <div class="col-sm-4">
+              <div class="class-item">
+                <div class="picture">
+                    <img src="./picture/klpicture/dance.jpg">
+                </div>
+                <div class="text">
+                    <span>CLASS</span>
+                    <h5>Dance</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="class-item">
+                <div class="picture">
+                    <img src="./picture/klpicture/yoga1.jpg">
+                </div>
+                <div class="text">
+                    <span>CLASS</span>
+                    <h5>Yoga</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="class-item">
+                <div class="picture">
+                    <img src="./picture/klpicture/fitness1.jpg">
+                </div>
+                <div class="text">
+                    <span>CLASS</span>
+                    <h5>Body Building</h5>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="foodsupplement-section set-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="bs-text">
+                        <h2>thực phẩm bổ sung</h2>
+                        <h3>Whey protein, Pre-workout, Mass,...</h3>
+                        <a href="./sanpham.html" class="btn btn-outline-warning">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="jumbotron container-fluid text-center">
+      <h3>câu lạc bộ</h3>
+      <hr class = "cool divider short-line center">
+      <div class = "row no-padding">
+        <div class="col-sm-6">
+          <div class="class-item-clb">
+            <div class="picture">
+                <img src="./picture/klpicture/clbhcm.jpg">
+            </div>
+            <div class="text">
+                <span>TP Hồ Chí Minh</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="class-item-clb">
+            <div class="picture">
+                <img src="./picture/klpicture/clbhanoi.jpg">
+            </div>
+            <div class="text">
+                <span>Thủ đô Hà Nội</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--=============FOOTER============= -->
+  
+        <footer class="row justify-content-center navbar  navbar-dark">
+          <div class="col-md-10 text-center ">
+            <img class="resize-logo-footer" src="picture/logo/logo.png">
+            
+            
+            <div class="row text-light mb-3">
+              <div class="col-sm-3 ">
+                <strong>contact info</strong><br>
+                <a href="#"> myemail@gmail.com </a>
+              </div>
+              <div class="col-sm-6">Chủ tịch: Phạm Nhật Dương
+                <br> Phó chủ tịch: Khánh Long
+              </div>
+              <div class="col-sm-3">SDT: 18000000</div>
+            </div>
+          </div>
+        </footer>
+
+      <!-- !!!!!!!!!!!!!!FOOTER!!!!!!!!!!!!! -->
+
+      <!-- <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="./img1.jpg" alt="" />
+                </a>
+                <div class="portfolio-caption">
+                    <div class="portfolio-caption-heading">Threads</div>
+                    <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="portfolio-item">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                  <div class="portfolio-hover">
+                      <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                  </div>
+                  <img class="img-fluid" src="./img1.jpg" alt="" />
+              </a>
+              <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Threads</div>
+                  <div class="portfolio-caption-subheading text-muted">Illustration</div>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="./img1.jpg" alt="" />
+            </a>
+            <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Threads</div>
+                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+            </div>
+          </div>
+      </div> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

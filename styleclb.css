@@ -1,0 +1,187 @@
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-family: "Muli", sans-serif;
+    color: #ffffff;
+}
+
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    background: rgba(0,0,0, .6) !important;
+    
+}
+.navbar-nav li{
+    padding-right: .7rem ;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:  #f36100;
+}
+.ml-auto{
+    margin: auto !important;
+}
+
+.dropdown-item:active{
+	color: #000000;
+	background-color: #ffffff;
+  }
+
+.resize-logo{
+	width: 120px;
+	height: 50px;
+  }
+
+  .resize-logo-footer{
+	width: 150px;
+	height: 50px;
+  }
+
+.modal-content{
+    background-image: url(./picture/klpicture/hinh1.jpg);
+    background-size: 100%;
+}
+
+
+.banner-section{
+    background-image: url(./picture/klpicture/bannercali.jpg);
+    height: 500px;
+	display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.content-banner{
+    text-align: center;
+    width: 530px;
+    margin: 9vw 0 130px 10%;
+}
+
+.content-banner fieldset{
+    padding: 0 30px 0px;
+    }
+.top-text{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgba(255,255,255,.73);
+    margin-bottom: 8px;
+}
+.middle-text{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.content-banner strong{
+    font-size: 50px;
+}
+
+
+
+/* .banner{
+    background: url(./picture/klpicture/bannercali.jpg) top center;
+    min-height: 580px;
+}
+
+}
+
+.banner img{
+    width: 100%;
+    height: 80vh;  
+    display: flex;
+} */
+
+/* .container{
+    margin-right: inherit;
+} */
+
+.clb{
+	padding-bottom: 50px;
+}
+
+.section-title {
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.section-title h2 {
+	font-size: 32px;
+	color: #000000;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+.section-title strong {
+	color: #000000;
+    font-size: 32px;
+    font-weight: 800px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+hr{
+    width: 84px;
+    height: 5px;
+    background: #dc282f;
+}
+.p-clb {
+    margin-top: -20px;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+.img-clb{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-clb {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    height: 220px;
+}
+.content-clb .title{
+    height: 43px;
+    margin-bottom: 10px;
+}
+
+.button-clb{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.map{
+    color: #000000;
+    position: relative;
+}
+
+.map .club-info{
+    transform: translateY(-50%);
+    max-width: 515px;
+    width: 100%;
+    background: #fafafa;
+    position: absolute;
+    top: 50%;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.map .main{
+    text-transform: uppercase;
+    color: #d40612;
+}
+.map .detail-title{
+    padding-top: 10px;
+    border-top: 1px solid #f1e7c2;
+}
+
+footer{
+    background-color: #0a0a0a;
+    padding: 0 0 3rem;
+    margin-top: 0;
+}

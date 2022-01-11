@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="./styleclabhanoi.css">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="./doan.html">
+          <img src="./picture/logo/logo.png" class="resize-logo" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <i class="fas fa-bars ml-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./doan.html">trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./course.html">khóa học</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" >câu lạc bộ</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a href="./clb.html" class="dropdown-item">TP Hồ Chí Minh</a>
+                <a href="./clbhanoi.html" class="dropdown-item">Hà Nội</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sanpham.html">dinh dưỡng</a>
+            </li>
+            <li>
+              <a class="btn btn-outline-warning" data-toggle="modal" data-target="#myModal" href="#khoahoc">đăng kí tập thử</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <a href="./signin.html"><span class="glyphicon glyphicon-user" style = "color: #ffffff">sign in</a>
+          </ul>
+    </nav>
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title"></h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="container">
+                <h2>Đăng kí ngay để được nhận 7 ngày tập miễn phí</h2>
+                <form action="/action_page.php">
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">đăng kí ngay</button>
+                </form>
+              </div>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+    <section class="banner-clbhanoi">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner-title">
+                        <h2>
+                            <small class="top-head">KHÁM PHÁ PHÒNG TẬP THỂ HÌNH QUỐC TẾ</small>
+                            <br>
+                            <span class="main-head">D&L Fitness tại thủ đô Hà Nội</span>
+                        </h2>
+                        <p>
+                            Bắt đầu việc luyện tập thật dễ dàng tại phòng tập tiêu chuẩn Quốc tế tại
+                            <br>
+                            D&L Fitness với thẻ hội viên thanh toán theo tuần
+                        </p>
+                        <a class="btn btn-outline-warning" data-toggle="modal" data-target="#myModal" href="#khoahoc">đăng kí tập thử</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="introduce-clbhanoi">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <strong>giới thiệu phòng tập</strong>
+                        <br>
+                        <h2>tại thủ đô hà nội</h2>
+                        <hr class = "cool divider short-line center">
+                    </div>
+                    <p class="p-clb">Phòng tập gym D&L Fitness tọa lạc tại tòa nhà Capital Building
+                         thuộc chuỗi hệ thống phòng tập cao cấp đầu tiên tại Việt Nam.
+                          Khuôn viên phòng tập được thiết kế tinh tế, phân chia thành các khu vực tập luyện riêng biệt,
+                           các phòng tập Yoga và thể dục nhóm quốc tế GroupX với trang bị nội thất cao cấp cùng các thiết bị hiện đại, 
+                           đem đến khách hàng trải nghiệm tập luyện chuyên nghiệp và tiện nghi nhất.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-clbhanoi">
+                        <img src="./picture/klpicture/clbhanoi1.png">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-clbhanoi">
+                        <img src="./picture/klpicture/clbhanoi2.png">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-clbhanoi">
+                        <img src="./picture/klpicture/clbhanoi3.png">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-clbhanoi">
+                        <img src="./picture/klpicture/clbhanoi4.png">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-clbhanoi">
+                        <img src="./picture/klpicture/clbhanoi5.png">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-clbhanoi">
+                        <img src="./picture/klpicture/clbhanoi6.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.044322292698!2d105.7990587145235!3d21.030912485997217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab413ff07bff%3A0xd593703d6168fb60!2zVUJORCBxdeG6rW4gQ-G6p3UgR2nhuqV5!5e0!3m2!1svi!2s!4v1609778912105!5m2!1svi!2s"
+         width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="container">
+            <div class="club-info">
+                <h3 class="main">vị trí D&L Fitness tại thủ đô hà nội</h3>
+                <p>Toạ lạc tại khu trung tâm đắc địa, câu lạc bộ D&L Fitness tại Lim Tower hứa hẹn sẽ là địa điểm thuận lợi cho những người yêu thích lối sống khoẻ mạnh. 
+                    Được đầu tư trang thiết bị hiện đại nhập khẩu hoàn toàn từ Technogym, 
+                    sử dụng chương trình thể hình hàng đầu, trung tâm D&L Fitness chính là lựa chọn an toàn cho sức khoẻ và cuộc sống của bạn.
+                </p>
+                <div class="detail-title">
+                    <strong>giờ mở cửa</strong>
+                    <p>Thứ 2 đến thứ 6: 6am – 11pm
+                    <br>
+                        Thứ 7, CN: 8am – 10pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="clb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <strong>trải nghiệm dịch vụ đẳng cấp tại phòng tập gym</strong>
+                        <br>
+                        <h2>D&L Fitness tại thủ đô hà nội</h2>
+                        <hr class = "cool divider short-line center">
+                    </div>
+                    <p class="p-clb">Với hơn 150 lớp Yoga, thể dục nhóm GroupX và các dịch vụ được cập nhật liên tục, 
+                        khám phá ngay phương pháp thể hình phù hợp với nhu cầu tập tập luyện và sức khỏe của bạn!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./picture/klpicture/hlvcanhan.png"class="img-clb">
+                    <div class="content-clb">
+                        <div class="title">
+                            <strong>HIỆU QUẢ X2 CÙNG HLV CÁ NHÂN</strong>
+                        </div>
+                        <p>Tập luyện khoa học hơn, hạn chế chấn thương và nhanh chóng đạt được mục tiêu hình thể với sự hướng dẫn 1 kèm 1 từ HLV chuyên nghiệp.</p>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./picture/klpicture/trainghiemyoga.png" class="img-clb">
+                    <div class="content-clb">
+                        <div class="title">
+                            <strong>TRẢI NGHIỆM TINH HOA YOGA ẤN ĐỘ</strong>
+                        </div>
+                        <p>Thư giãn trong không gian đậm chất thiền và lấy lại năng lượng với các lớp Yoga từ cơ bản đến nâng cao dưới sự hướng dẫn trực tiếp của giảng viên Ấn Độ.</p>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./picture/klpicture/hocnhuthuatdinhcao.png" class="img-clb">
+                    <div class="content-clb">
+                        <div class="title">
+                            <strong>HỌC NHU THUẬT ĐỈNH CAO</strong>
+                        </div>
+                        <p>Nâng cao thể lực, giảm cân, tăng cường khả năng tự vệ và sự linh hoạt với Kickboxing, MMA… Mỗi giờ tập đối kháng có thể đốt cháy đến 800cal.</p>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./picture/klpicture/tapluyentheonhom.png" class="img-clb">
+                    <div class="content-clb">
+                        <div class="title">
+                            <strong>TẬP LUYỆN THEO NHÓM</strong>
+                        </div>
+                        <p>Kết nối cùng bạn bè, tham gia hơn 150 lớp Dance & GroupX bản quyền từ Lesmills và độc quyền từ D&L Fitness: Body Combat, BodyPump, CXWorx, RPM…</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="button-clb">
+                <a class="btn btn-outline-warning" data-toggle="modal" data-target="#myModal" href="#khoahoc">đăng kí tập thử</a>
+            </div>
+        </div>
+    </section>
+    <footer class="row justify-content-center navbar  navbar-dark">
+      <div class="col-md-10 text-center ">
+        <img class="resize-logo-footer" src="picture/logo/logo.png">
+        
+        
+        <div class="row text-light mb-3">
+          <div class="col-sm-3 ">
+            <strong>contact info</strong><br>
+            <a href="#"> myemail@gmail.com </a>
+          </div>
+          <div class="col-sm-6">Chủ tịch: Phạm Nhật Dương
+            <br> Phó chủ tịch: Khánh Long
+          </div>
+          <div class="col-sm-3">SDT: 18000000</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

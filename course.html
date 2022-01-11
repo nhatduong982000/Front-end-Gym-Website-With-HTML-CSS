@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./course.css">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+      <!-- Brand/logo -->
+      <a class="navbar-brand " href="doan.html">
+        <img src="./picture/logo/logo.png " class="resize-logo" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <i class="fas fa-bars ml-1"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="doan.html">trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="course.html">khóa học</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" >câu lạc bộ</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a href="./clb.html" class="dropdown-item">TP Hồ Chí Minh</a>
+              <a href="./clbhanoi.html" class="dropdown-item">Hà Nội</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="sanpham.html">dinh dưỡng</a>
+          </li>
+          <li>
+            <a class="btn btn-outline-warning" data-toggle="modal" data-target="#myModal" href="#khoahoc">đăng kí tập thử</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <a href="./signin.html"><span class="glyphicon glyphicon-user" style = "color: #ffffff">sign in</a>
+        </ul>
+    </nav>
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title"></h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="container">
+                <h2>Đăng kí ngay để được nhận 7 ngày tập miễn phí</h2>
+                <form action="/action_page.php">
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">đăng kí ngay</button>
+                </form>
+              </div>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>    
+    
+    <div class="banner-course">
+        <img src="./picture/klpicture/bannercourse1.jpg">
+    </div>
+    
+    <section class="service-course">
+        <div class="container">
+            <div class="row">   
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <strong>các phương pháp tập luyện</strong>
+                        <br>
+                        <h2>giúp bạn có một cơ thể hoàn hảo</h2>
+                        <hr class = "cool divider short-line center">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 nopadding">
+                    <div class="service-img">
+                        <img src="./picture/klpicture/personaltraining1.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 nopadding">
+                    <div class="service-text">
+                        <h4>personal training</h4>
+                        <p>chuyên nghiệp, có bằng cấp quốc tế, nhiều năm huấn luyện</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 nopadding">
+                    <div class="service-img">
+                        <img src="./picture/klpicture/serviceyoga.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 nopadding">
+                    <div class="service-text">
+                        <h4>Yoga</h4>
+                        <p>một bộ môn rèn luyện sức dẻo dai, cân bằng năng lượng hiệu quả</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 nopadding">
+                    <div class="service-text">
+                        <h4>boxing</h4>
+                        <p>môn võ đang được giới trẻ yêu thích ngày càng phổ biến ở Việt Nam</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 nopadding">
+                    <div class="service-img">
+                        <img src="./picture/klpicture/boxing.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 nopadding">
+                    <div class="service-text">
+                        <h4>body building</h4>
+                        <p>bộ môn xây dựng cơ băp và body hoàn hảo, phù hợp với giới trẻ</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 nopadding">
+                    <div class="service-img">
+                        <img src="./picture/klpicture/body.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner-PT">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-plan">
+      <div class="container">
+          <div class="row">   
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <strong>xây dựng khóa học</strong>
+                    <br>
+                    <h2>phù hợp với bạn</h2>
+                    <hr class = "cool divider short-line center">
+                </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-8">
+                  <div class="ps-item">
+                    <div class="ps-item-course">
+                      <h3>1 tháng</h3>
+                      <div class="pi-price">
+                          <h2>$ 9.0</h2>
+                          <span>SINGLE CLASS</span>
+                      </div>
+                      <ul>
+                          <li>huấn luyện viên chuyên nghiệp</li>
+                          <li>thiết bị máy móc hiện đại</li>
+                          <li>không gian rộng thoáng</li>
+                          <li>không giới hạn thời gian tập</li>
+                      </ul>
+                    </div>
+                      <a href="#" class="primary-btn pricing-btn">tham gia ngay</a>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-8">
+                  <div class="ps-item">
+                    <div class="ps-item-course">
+                      <h3>12 tháng</h3>
+                      <div class="pi-price">
+                          <h2>$ 99.0</h2>
+                          <span>SINGLE CLASS</span>
+                      </div>
+                      <ul>
+                        <li>huấn luyện viên chuyên nghiệp</li>
+                        <li>thiết bị máy móc hiện đại</li>
+                        <li>không gian rộng thoáng</li>
+                        <li>có hồ bơi miễn phí</li>
+                        <li>phòng xông hơi thư giãn</li>
+                        <li>không giới hạn thời gian tập</li>
+                      </ul>
+                    </div>
+                      <a href="#" class="primary-btn pricing-btn">tham gia ngay</a>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-8">
+                  <div class="ps-item">
+                    <div class="ps-item-course">
+                      <h3>6 tháng</h3>
+                      <div class="pi-price">
+                          <h2>$ 49.0</h2>
+                          <span>SINGLE CLASS</span>
+                      </div>
+                      <ul>
+                        <li>huấn luyện viên chuyên nghiệp</li>
+                        <li>thiết bị máy móc hiện đại</li>
+                        <li>không gian rộng thoáng</li>
+                        <li>có hồ bơi miễn phí</li>
+                        <li>không giới hạn thời gian tập</li>
+                      </ul>
+                    </div>
+                      <a href="#" class="primary-btn pricing-btn">tham gia ngay</a>
+                      <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="PT">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <strong>chọn huấn luyện viên phù hợp</strong>
+            <hr class = "cool divider short-line center">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="PT-trainer">
+            <div class="trainer-img">
+              <img src="./picture/klpicture/trainer1.jpg">
+            </div>
+            <div class="desc">
+              <div class="trainer-title">
+                <div class="name-title">
+                  <div class="name"> khánh long</div>
+                  <div class="title">huấn luyện viên cá nhân</div>
+                </div>
+                <div class="quote">
+                  <ul>
+                    <li>Chứng nhận từ Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ</li>
+                    <li>25 năm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore, và hiện nay là Việt Nam tại D&L Fitness</li>
+                    <li>Huấn luyện cho nhiều ngôi sao hàng đầu.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="PT-trainer">
+            <div class="trainer-img">
+              <img src="./picture/klpicture/trainer1.jpg">
+            </div>
+            <div class="desc">
+              <div class="trainer-title">
+                <div class="name-title">
+                  <div class="name"> Nhật dương</div>
+                  <div class="title">huấn luyện viên cá nhân</div>
+                </div>
+                <div class="quote">
+                  <ul>
+                    <li>Kinh nghiệm 7 năm, huấn luyện chuyên nghiệp các phương pháp giảm cân. Giải nhất cuộc thi Thay Đổi Hình Thể năm 2009, 2012.</li>
+                    <li>25 năm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore, và hiện nay là Việt Nam tại D&L Fitness</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="PT-trainer">
+            <div class="trainer-img">
+              <img src="./picture/klpicture/trainer1.jpg">
+            </div>
+            <div class="desc">
+              <div class="trainer-title">
+                <div class="name-title">
+                  <div class="name"> hoàng long</div>
+                  <div class="title">huấn luyện viên cá nhân</div>
+                </div>
+                <div class="quote">
+                  <ul>
+                    <li>Chứng nhận từ Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ</li>
+                    <li>25 năm huấn luyện thể thao tại Hoa Kỳ, Đức, Hồng Kông, Malaysia, Singapore</li>
+                    <li>Hơn 8 năm kinh nghiệm thay đổi thể hình, từng trực tiếp huấn luyện cho nhiều ngôi sao.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="PT-trainer">
+            <div class="trainer-img">
+              <img src="./picture/klpicture/trainer1.jpg">
+            </div>
+            <div class="desc">
+              <div class="trainer-title">
+                <div class="name-title">
+                  <div class="name"> phước lộc</div>
+                  <div class="title">huấn luyện viên cá nhân</div>
+                </div>
+                <div class="quote">
+                  <ul>
+                    <li>Chứng nhận từ Học Viện Y Học Thể Thao Quốc Gia (NASM) Hoa Kỳ</li>
+                    <li>hiện nay là Việt Nam tại D&L Fitness</li>
+                    <li>Huấn luyện cho nhiều ngôi sao</li>
+                    <li>Hơn 8 năm kinh nghiệm thay đổi thể hình. Giải nhất cuộc thi Thay Đổi Hình Thể</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>
+            
+      <!--=============FOOTER============= -->
+      <footer class="row justify-content-center navbar  navbar-dark">
+        <div class="col-md-10 text-center ">
+          <img class="resize-logo-footer" src="picture/logo/logo.png">
+          
+          
+          <div class="row text-light mb-3">
+            <div class="col-sm-3 ">
+              <strong>contact info</strong><br>
+              <a href="#"> myemail@gmail.com </a>
+            </div>
+            <div class="col-sm-6">Chủ tịch: Phạm Nhật Dương
+              <br> Phó chủ tịch: Khánh Long
+            </div>
+            <div class="col-sm-3">SDT: 18000000</div>
+          </div>
+        </div>
+      </footer>
+      <!-- !!!!!!!!!!!!!!FOOTER!!!!!!!!!!!!! -->
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

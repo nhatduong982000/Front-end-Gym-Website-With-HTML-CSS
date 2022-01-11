@@ -1,0 +1,250 @@
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-family: "Muli", sans-serif;
+    color: #ffffff;
+}
+
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    background: rgba(0,0,0, .6) !important;
+    
+}
+.navbar-nav li{
+    padding-right: .7rem ;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:  #f36100;
+}
+.ml-auto{
+    margin: auto !important;
+}
+
+.dropdown-item:active{
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+.modal-content{
+    background-image: url(./picture/klpicture/hinh1.jpg);
+    background-size: 100%;
+}
+
+.banner-course img{
+    margin-left: -250px;
+    max-width: inherit;
+    width: 1920px;
+    height: 550px;
+}
+
+.section-title {
+    padding-top: 20px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.section-title h2 {
+	font-size: 32px;
+	color: #000000;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+.section-title strong {
+	color: #000000;
+    font-size: 32px;
+    font-weight: 800px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+hr{
+    width: 84px;
+    height: 5px;
+    background: #dc282f;
+}
+
+.nopadding{
+    padding: 0 !important;
+}
+
+.service-img img{
+    height: 100%;
+    max-width: 100%;
+}
+
+.service-text{
+
+    padding: 72px 30px;
+}
+.service-text h4{
+    color: #212529;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.service-text p {
+    color: #212529;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.banner-PT{
+    margin-top: 30px;
+    background-image: url(./picture/klpicture/clbhanoi7.jpg);
+    display: flex;
+    background-size: 100%;
+    height: 550px;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    align-items: center;
+}
+
+.section-plan{
+    margin-top: 30px;
+}
+
+.ps-item{
+    color:#000000;
+    text-align: center;
+	padding: 40px 30px 52px;
+    border: 1px solid #464646;
+    -webkit-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+}
+
+.ps-item-course{
+    height: 410px;
+}
+
+.ps-item h3 {
+	font-size: 28px;
+	color: #000000;
+	font-weight: 600;
+	margin-bottom: 16px;
+	-webkit-transform: skewY(4deg);
+	-ms-transform: skewY(4deg);
+	transform: skewY(4deg);
+}
+
+.ps-item .pi-price {
+	margin-bottom: 30px;
+	-webkit-transform: skewY(4deg);
+	-ms-transform: skewY(4deg);
+	transform: skewY(4deg);
+}
+
+.ps-item .pi-price h2 {
+	font-size: 60px;
+	color: #f36100;
+	font-weight: 600;
+}
+
+.ps-item .pi-price span {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.ps-item ul {
+	margin-bottom: 40px;
+	-webkit-transform: skewY(4deg);
+	-ms-transform: skewY(4deg);
+	transform: skewY(4deg);
+}
+
+.ps-item ul li {
+	font-size: 14px;
+	color: #000000;
+	line-height: 32px;
+	list-style: none;
+}
+
+.ps-item .primary-btn.pricing-btn{
+    display: block;
+    background-color: #000000;
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.primary-btn{
+    font-size: 14px;
+    padding: 17px 30px 16px;
+    color: #ffffff;
+    background-color: #000000;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.primary-btn:hover{
+    color: #f36100;
+    text-decoration: none;
+}
+
+
+
+.PT{
+    margin-top: 30px;
+}
+
+.PT-trainer{
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    margin-bottom: 50px;
+}
+
+.PT .trainer-img{
+    float: left;
+}
+.name-title{
+    border-left: 4px solid #dc2930;
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+.PT .desc{
+    padding: 18px 14px 20px 24px;
+}
+
+.trainer-title{
+    padding: 15px 20px;
+    overflow: hidden;
+}
+.name-title .name{
+    color: #dc2930;
+    font-size: 23px;
+    line-height: 1px;
+    margin-bottom: 10px;
+}
+.name-title .title{
+    font-size:12px;
+    color: rgba(0,0,0,.74);
+}
+.quote{
+    color:#000000;
+}
+
+
+/* resize logo */
+.resize-logo{
+	width: 120px;
+	height: 50px;
+  }
+
+  .resize-logo-footer{
+    width: 150px;
+    height: 50px;
+  }
